@@ -15,7 +15,6 @@ import com.wingsofts.gankclient.R
 import com.wingsofts.gankclient.bean.FuckGoods
 import com.wingsofts.gankclient.databinding.ViewRecyclerBinding
 import com.wingsofts.gankclient.di.component.FuckGoodsModule
-import com.wingsofts.gankclient.di.component.DaggerApiComponent
 import com.wingsofts.gankclient.getMainComponent
 import com.wingsofts.gankclient.mvp.contract.FuckGoodsContract
 import com.wingsofts.gankclient.mvp.presenter.FuckGoodsPresenter

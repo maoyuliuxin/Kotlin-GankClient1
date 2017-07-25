@@ -8,7 +8,7 @@ ext {
   supportLibVersion = "25.3.1"
   retrofitLibVersion = "2.1.0"
   okhttpLibVersion = "3.4.2"
-  daggerLibVersion = "2.7"
+  daggerLibVersion = "2.11"
   rxjavaLibVersion = "1.2.0"
   rxjava2LibVersion = "2.0.0-RC2"
   rxAndroidVersion = "1.2.1"
@@ -52,7 +52,6 @@ ext {
           supportMultidex         : 'com.android.support:multidex:1.0.1',
 
           kotlinStdlib            : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
-//          kotlinReflect           : "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion",
 
   ]
 }

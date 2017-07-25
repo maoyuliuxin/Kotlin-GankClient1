@@ -19,6 +19,7 @@ class App : Application() {
         super.onCreate()
 
         DaggerApiComponent.builder().apiModule(ApiModule()).appModule(AppModule(this)).build().inject(this)
+
     }
 
 
