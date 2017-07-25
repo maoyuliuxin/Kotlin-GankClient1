@@ -5,7 +5,7 @@ ext {
   targetSdkVersion = 25
   buildToolsVersion = '25.0.3'
 
-  supportLibVersion = "26.0.0-beta1"
+  supportLibVersion = "25.3.1"
   retrofitLibVersion = "2.1.0"
   okhttpLibVersion = "3.4.2"
   daggerLibVersion = "2.7"
@@ -16,7 +16,7 @@ ext {
   rxBindingVersion = "0.4.0"
   superRecyclerViewVersion = "1.1.4"
   databindingLibVersion = "2.2.0"
-  kotlinVersion = "1.0.4"
+  kotlinVersion = "1.1.3-2"
   blockcanaryVersion = "1.3.1"
 
   dependencies = [
@@ -52,7 +52,7 @@ ext {
           supportMultidex         : 'com.android.support:multidex:1.0.1',
 
           kotlinStdlib            : "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
-          kotlinReflect           : "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion",
+//          kotlinReflect           : "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion",
 
   ]
 }

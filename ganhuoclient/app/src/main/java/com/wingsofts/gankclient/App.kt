@@ -2,10 +2,8 @@ package com.wingsofts.gankclient
 
 import android.app.Application
 import com.wingsofts.gankclient.di.component.ApiComponent
-import com.wingsofts.gankclient.di.component.DaggerApiComponent
 import com.wingsofts.gankclient.di.module.ApiModule
 import com.wingsofts.gankclient.di.module.AppModule
-import retrofit2.Retrofit
 import javax.inject.Inject
 
 /**
